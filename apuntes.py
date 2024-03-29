@@ -20,13 +20,35 @@ dirr: str = "La ladera"
 
 
 # "+" Tambien sirve para concatenar.
-print("Buenos" + "dias")
+#print("Buenos" + "dias")
 # El '*' tambien multiplica el string.
-print("Hola" * 5)
+#print("Hola" * 5)
 
 #Operaciones comparativos.
-print(3 <= 4)  
+#print(3 <= 4)  
 3 != 3
 
 # Comparadores logicos
 # AND OR y NOT 
+
+# Para intenacionalizar o para incluir variables en texto lo mas recomendable es usar formateo.
+#nombre = input("¿Cual es tu nombre?")
+
+#cadena = "Hola {}".format(nombre)
+#print(cadena)
+#Otra manera. 
+#cadena2 = "Hola %s" %(nombre)
+#print(cadena2)
+
+#Mas sencilla.
+#print(f"Hola {nombre}")
+
+#Desenpaquetado de caracteres:
+idioma = "Python"
+#idioma_split = idioma[1:3]
+#print(idioma_split)
+
+# UN PUNTO TRAS LA VARIABLE NOS INFORMA LAS FUNCIONES QUE PODEMOS USAR: 
+if idioma.isnumeric():
+    print("Es numerico")
+
